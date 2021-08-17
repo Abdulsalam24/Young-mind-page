@@ -156,16 +156,6 @@ nav{
     margin: 0 20px;
 }
 
-.welcome-text h2::before{
-    content: url(Ellipse\ 2.png);
-    margin-right: 20px;
-    width: 20px;
-}
-
-.welcome-text h2::after{
-    content: url(Ellipse\ 2.png);
-    margin-left: 20px;
-}
 
 
 /*sec1*/
@@ -217,7 +207,7 @@ nav{
 }
 
 .sec1-img-div{
-    width: 80%;
+    width: 70%;
     margin:100px auto 0;
 }
 
@@ -237,6 +227,7 @@ nav{
     margin-top: -4px;
     text-align: center;
     color: var(--secondary);
+    font-size: 0.7em;
 }
 /*article*/
 
@@ -329,6 +320,11 @@ nav{
 .copyright-text{
     width: 80%;
 }
+
+.copyright-text{
+    font-size: 0.9em;
+}
+
 
 .copyright-social{
     display: flex;
@@ -633,6 +629,18 @@ nav{
     text-align: center;
 }
 
+
+.welcome-text h2::before{
+    content: url(Ellipse\ 2.png);
+    margin-right: 20px;
+    width: 20px;
+}
+
+.welcome-text h2::after{
+    content: url(Ellipse\ 2.png);
+    margin-left: 20px;
+}
+
 .sec1{
     width: 95%;
     margin: 40px auto;
@@ -795,10 +803,6 @@ nav{
     font-size: 0.5em;
     color: white;
     background-color: black;
-}
-
-.copyright-text{
-    width: 80%;
 }
 
 .copyright-social{
