@@ -9,6 +9,10 @@
     --secondary:#8C8888;
 }
 
+html{
+    scroll-behaviour : smooth;
+}
+
 body,p,ul,li,a{
     cursor: pointer;
     font-family: 'Lucida Sans';
